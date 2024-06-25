@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "📚 CNNs from Scratch in Pytorch",
+    pageTitle: " CNNs from Scratch in Pytorch",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
