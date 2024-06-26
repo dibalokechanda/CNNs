@@ -13,5 +13,5 @@ title: CNNs from Scratch in Pytorch | By Dibaloke Chanda
 
 - https://animatedai.github.io/
 
-All Additional references are cited in the corresponding pages
+All Additional references are cited in the corresponding pages.
 
