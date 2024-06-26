@@ -20,7 +20,9 @@ Look at the following diagram which summarizes the main concept behind how convo
 
 ![[Pasted image 20240626123635.png]]
 
-We take the 1D convolutional kernel (which is 1x3 dimensional and colored in orange ) and align it with a certain section of the 1D feature. For the ease of visualization I showed that certain section separately (colored in purple). Also, to explicitly intuit how the alignment works, a I used a darker color to indicate the center. The next step is performing an element-wise multiplication followed by a summation operation.
+We take the 1D convolutional kernel (which is 1x3 dimensional and colored in orange ) and align it with a certain section of the 1D feature. For the ease of visualization I showed that certain section separately (colored in purple). Also, to explicitly intuit how the alignment works, I used a darker color to indicate the center of the kernel and the feature section that overlaps with the kernel. The next step is performing an element-wise multiplication followed by a summation operation.
+
+![[Presentation3.mp4]]
 
 
 
