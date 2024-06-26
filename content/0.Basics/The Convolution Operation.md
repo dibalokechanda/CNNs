@@ -22,9 +22,21 @@ Look at the following diagram which summarizes the main concept behind how convo
 
 We take the 1D convolutional kernel (which is 1x3 dimensional and colored in orange ) and align it with a certain section of the 1D feature. For the ease of visualization I showed that certain section separately (colored in purple). Also, to explicitly intuit how the alignment works, I used a darker color to indicate the center of the kernel and the feature section that overlaps with the kernel. The next step is performing an element-wise multiplication followed by a summation operation.
 
+The following is a simple animation to show the overall process.
+
 ![[Presentation3.mp4]]
 
+### 2D Convolution vs Conv2D
 
+Extrapolating the idea of 1D convolution to 2D convolution is pretty easy.
+
+It should look something like below; where the instead of 1D feature, the feature is now a 2D grid. Additionally the kernel is also a 2D grid. 
+
+![[Pasted image 20240626134407.png]]
+
+In this visualization the kernel is  3x3 in dimension. A nice collection of this 2D convolution can found in this [github repo](https://github.com/vdumoulin/conv_arithmetic) by Vincent Dumoulin, Francesco Visin.
+
+However, this 2D convolution is fundamentally different from how convolution works in CNNs.
 
 
 
