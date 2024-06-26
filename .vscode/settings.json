@@ -1,0 +1,9 @@
+{
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "content/0.Basics/0.1 The Convolution Operation.md"
+        }
+    ]
+}
