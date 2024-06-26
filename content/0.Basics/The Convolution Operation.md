@@ -9,7 +9,7 @@ In convolutional neural network, we actually perform cross-correlation instead o
 ### Why Conv2D ?
 
 
-
+![[Pasted image 20240626123635.png]]
 
 
 
