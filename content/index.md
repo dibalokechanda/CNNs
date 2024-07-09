@@ -14,6 +14,17 @@ title: CNNs from Scratch in Pytorch
 - To see all the topics use the **Explorer** on the left. I also listed out the the topics in the following section.
 - The site is optimized for **light mode**. Use the **toggle button** on top of the Explorer to switch between light mode and dark mode.
 ---
+
+## Contents
+
+#### Basics
+
+- [[0.1 The Convolution Operation]] : Basic introduction to the convolution operation, distinction between 1D, 2D and 3D convolution
+- [[0.2 Filter Bank]]: How multiple filters is used to create a filter bank 
+- [[0.3 Batch Dimension]]: The batch dimension in convolution operation and how the input and output feature volume shape changes because of the batch dimension
+- [[0.4 Point-Wise Convolution (1x1 Convolution)]] : Introduction to $1\times1$ convolution and how it is used to change the number of channels in output feature volume
+- [[0.5 Depth-Wise Separable Convolution]]: Combination of separable convolution and pointwise convolution
+- [[0.6 Terminologies]]: Additional Terminologies used in CNN related literature
 ## Using content from the blog
 
 You are welcome to use any content from the blog. However, as an academic courtesy I would appreciate if you cite it.
